@@ -1,0 +1,80 @@
+ [
+    {
+    "name": "Republic Pi",
+    "address": 
+    {
+        "street": "611 E 30th Ave",
+        "city": "Spokane",
+        "state": "WA",
+        "zip": "99203"
+    },
+    "website": "https://www.republicpi.com/",
+    "phone": "509-863-9196"
+    },
+
+    {
+    "name": "The Flying Goat",
+    "address": 
+    {
+        "street": "3318 W Northwest Blvd",
+        "city": "Spokane",
+        "state": "WA",
+        "zip": "99205"
+    },
+    "website": "https://www.theflyinggoat.com/",
+    "phone": "509-327-8277"
+    },
+
+    {
+    "name": "South Perry Pizza",
+    "address": 
+    {
+        "street": "1011 S Perry Street",
+        "city": "Spokane",
+        "state": "WA",
+        "zip": "99202"
+    },
+    "website": "https://southperrypizzaspokane.com/",
+    "phone": "509-290-6047"
+    },
+
+    {
+    "name": "Iron Goat Brewery",
+    "address": 
+        {
+            "street": "1302 W 2nd Avenue",
+            "city": "Spokane",
+            "state": "WA",
+            "zip": "99201"
+        },
+    "website": "https://irongoatbrewing.com/taproom",
+    "phone": "509-474-0722"
+    },
+
+    {
+    "name": "Market Street Pizza Parlor",
+    "address": 
+        {
+            "street": "2721 N Market Street",
+            "city": "Spokane",
+            "state": "WA",
+            "zip": "99207"
+        },
+    "website": "https://market-street-pizza.website.spoton.com/",
+    "phone": "509-822-7874"
+    },
+
+    {
+    "name": "DiNardi's",
+    "address": 
+        {
+            "street": "829 E Boone Ave",
+            "city": "Spokane",
+            "state": "WA",
+            "zip": "99208"
+        },
+    "website": "https://www.dinardispizzapasta.com/?utm_source=gbp",
+    "phone": "509-385-0743"
+    }
+
+]
