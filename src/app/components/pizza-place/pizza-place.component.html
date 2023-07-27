@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="card" style="width: 18rem;" *ngFor="let pizzaPlace of pizzaPlaces">
+      <div class="card-header">
+        {{pizzaPlace.name}}
+      </div>
+      <ul class="list-group list-group-flush" >
+        <li class="list-group-item">{{pizzaPlace.address.street}}, <br>{{pizzaPlace.address.city}}, {{pizzaPlace.address.state}} {{pizzaPlace.address.zip}}</li>
+        <li class="list-group-item"><a href="{{pizzaPlace.website}}" target="_blank">Website</a></li>
+        <li class="list-group-item">{{pizzaPlace.phone}}</li>
+      </ul>
+    </div> 
+  </div>
+</div>
+
+
