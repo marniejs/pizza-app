@@ -11,21 +11,18 @@ import { HttpClient } from '@angular/common/http';
 export class PizzaPlaceComponent  implements OnInit {
   pizzaPlaces: any;
   url: string = '../../../assets/data.json';
-
-  constructor(private http: HttpClient) {}
-
-   /* getPizzaData()  {
-    this.pizzaData.fetchPizzaData().subscribe((data: any) => {
-      console.log(data);
-      return data;
-    })
-  } */ 
-   
-  
-
-  ngOnInit() {
+ 
+  getPizzaPlaces() {
     this.http.get(this.url).subscribe(res => {
       this.pizzaPlaces = res;
     })
+  }
+
+  constructor(private http: HttpClient) {
+
+  }
+
+  ngOnInit() {
+    this.getPizzaPlaces();
   }
 }

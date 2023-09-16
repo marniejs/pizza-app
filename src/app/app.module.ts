@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PizzaPlaceComponent } from './components/pizza-place/pizza-place.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { SearchbarComponent } from './components/searchbar/searchbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PizzaPlaceComponent,
     NavbarComponent,
-    ContactComponent
+    ContactComponent,
+    SearchbarComponent
   ],
   imports: [
     BrowserModule,
